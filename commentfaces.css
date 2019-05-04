@@ -61,3 +61,21 @@
 .md [href$="##holopat"]:hover {
 	animation: holopat 3s steps(36) forwards;
 }
+
+/* Candy Boy */
+@keyframes candywat {
+	from {
+		background-position: 0px 0px;
+	}
+	to {
+		background-position: 0px -10640px;;
+	}
+}
+.md [href$="##candywat"] {
+	background-image: url("https://i.imgur.com/zFSggc4_d.jpg") !important;
+	width: 300px !important;
+	height: 190px !important;
+}
+.md [href$="##candywat"]:hover {
+	animation: candywat 3.99s steps(56) forwards;
+}
